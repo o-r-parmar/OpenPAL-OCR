@@ -27,8 +27,9 @@ pip install Pillow pytesseract
 ## Usage
 
 1. Paste the required images in the Images folder
-2. Modify the `directory`, `save_directory`, `txt_directory`, and `csv_directory` variables in the script to point to your desired input and output directories.
-3. Run the script using Python:
+2. Use websites like https://pixspy.com/ to determine the location of the tuple coordinates (upper left corner and bottom right corner of the crop rectangle you want to use) and put it in line 31 of the script. Do not change *15 as it is used to scale the images due to very small font sizes
+3. Modify the `directory`, `save_directory`, `txt_directory`, and `csv_directory` variables in the script to point to your desired input and output directories. By default, it will save cropped images in `./Images/cropped` and save .csv in the root directory of the script
+4. Run the script using Python:
 
 ```bash
 python script.py
