@@ -26,8 +26,9 @@ pip install Pillow pytesseract
 
 ## Usage
 
-1. Modify the `directory`, `save_directory`, `txt_directory`, and `csv_directory` variables in the script to point to your desired input and output directories.
-2. Run the script using Python:
+1. Paste the required images in the Images folder
+2. Modify the `directory`, `save_directory`, `txt_directory`, and `csv_directory` variables in the script to point to your desired input and output directories.
+3. Run the script using Python:
 
 ```bash
 python script.py
